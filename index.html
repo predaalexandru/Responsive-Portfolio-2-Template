@@ -6,6 +6,7 @@
         <title>Preda Alexandru</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" type="text/css" href="">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
@@ -40,10 +41,10 @@
                         <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
 
                         <div id="theme-option-wrapper">
-                            <div id="light-mode" class="theme-dot"></div>
-                            <div id="blue-mode" class="theme-dot"></div>
-                            <div id="green-mode" class="theme-dot"></div>
-                            <div id="purple-mode" class="theme-dot"></div>
+                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                         </div>
 
                         <p id="settings-note">*Theme settings will be saved for <br> your next visit</p>
@@ -120,7 +121,7 @@
                     <div class="post-preview">
                         <h6 class="post-title">Alex Blog</h6>
                         <p class="post-intro">Blog made with React, Redux & Firebase</p>
-                        <a href="#">Read More</a>
+                        <a href="https://github.com/predaalexandru/Alex-blog">Read More</a>
                     </div>
                 </div>
 
@@ -129,7 +130,7 @@
                     <div class="post-preview">
                         <h6 class="post-title">Responsive Company Template</h6>
                         <p class="post-intro">Template of a company created with HTML&CSS&JS and Bootstrap 4</p>
-                        <a href="#">Read More</a>
+                        <a href="https://github.com/predaalexandru/Responsive-Company-2-Template">Read More</a>
                     </div>
                 </div>
 
@@ -138,7 +139,7 @@
                     <div class="post-preview">
                         <h6 class="post-title">Responsive Portfolio Template</h6>
                         <p class="post-intro">Template created with HTML&CSS&JS and Bootstrap4</p>
-                        <a href="#">Read More</a>
+                        <a href="https://github.com/predaalexandru/Responsive-Portfolio-Template">Read More</a>
                     </div>
                 </div>
             </div>
@@ -154,16 +155,16 @@
             <form id="contact-form">
 				<a name="contact"></a>
 
-				<label>Name</label>
+				<label>Name:</label>
 				<input class="input-field" type="text" name="name">
 
-				<label>Subject</label>
+				<label>Subject:</label>
 				<input class="input-field" type="text" name="subject">
 
-				<label>Email</label>
+				<label>Email:</label>
 				<input class="input-field" type="text" name="email">
 
-				<label>Message</label>
+				<label>Message:</label>
 				<textarea class="input-field" name="message"></textarea>
 
 				<input id="submit-btn" type="submit" value="Send">
@@ -172,6 +173,6 @@
     </section>
 
     
-        
+       <script type="text/javascript" src="js/script.js"></script> 
     </body>
 </html>
